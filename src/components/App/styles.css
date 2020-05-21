@@ -1,9 +1,12 @@
 
 
-body {
-  background-image: url('../../assets/Images/Background.png');
+.container {
+  background-image:  url('../../assets/Images/ChefImage.png'),url('../../assets/Images/foodImage.png'),url('../../assets/Images/DesignElement.png'),url('../../assets/Images/Background.png');
   background-size: cover;
-  
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1725px;
  }
 
 

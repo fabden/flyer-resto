@@ -7,7 +7,7 @@ import './styles.css';
 
 // == Composant
 const App = () => (
-  <div> fdfgfgf</div>
+  <div className="container"> fdfgfgf</div>
 );
 
 // == Export
