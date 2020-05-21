@@ -1,0 +1,10 @@
+
+
+body {
+  background-image: url('../../assets/Images/Background.png');
+  background-size: cover;
+  
+ }
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
