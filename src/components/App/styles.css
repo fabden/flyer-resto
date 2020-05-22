@@ -1,13 +1,54 @@
 
 
-.container {
-  background-image:  url('../../assets/Images/ChefImage.png'),url('../../assets/Images/foodImage.png'),url('../../assets/Images/DesignElement.png'),url('../../assets/Images/Background.png');
-  background-size: cover;
-
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 1725px;
+@font-face {
+  font-family: "SexyBeauty";
+  src: url('../../assets/fonts/SexyBeauty.ttf')
  }
+ @font-face {
+  font-family: "titilingBd";
+  src: url('../../assets/fonts/builtTitlingBd.ttf')
+ }
+.fond_gris{
+ height: 90vh;
+ width: 15vw;
+ background-color: #5a6161;
+
+}
+.fond_vert{
+height: 50vh;
+width: 40vw;
+background-color: #6d973e;
+
+}
+.imgPlat{ 
+  width: 20vh;
+  height: auto;
+  z-index: 2;
+
+}
+
+.header_titre1{
+   font-family: "titilingBd";
+   color: white;
+   font-size: 10vw;
+
+
+ }
+ .header_titre2{
+  font-family: "SexyBeauty";
+  font-size: 10vw;
+  transform: rotate(-4deg); 
+
+ }
+ .header_titre3{
+  font-family: "titilingBd";
+  color: white;
+  font-size: 3vw;
+ }
+.divImage{
+  margin-top: -25%;
+}
+
 
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
