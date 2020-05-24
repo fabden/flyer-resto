@@ -8,19 +8,18 @@ import imgelemt from '../../assets/Images/DesignElement.png';
 import iconeAppel from '../../assets/Images/iconeAppel.png';
 import iconeAndroid from '../../assets/Images/iconeAndroid.png';
 
-
 // == Import
 
 import './styles.css';
 
 // == Composant
 const App = () => (
-  <div className="container">
-    <div className="row col-12 position-absolute">
+  <div className="container ">
+    <div className="row col-12   position-absolute ">
       <div className="fond_gris col-md-3 col-12 " />
-      <div className="fond_vert col-md-5 col-12  d-none d-md-flex " />
+      <div className="fond_vert col-md-5 col-12  d-none d-md-block " />
     </div>
-    <div className="position-absolute my-3 ">
+    <div className="position-absolute py-3">
       <header className="row justify-content-center text-center ">
         <div className="col-md-3 order-md-2" />
         <div className="col-md-9  order-md-1">
@@ -37,10 +36,10 @@ const App = () => (
       </header>
       <div className="row justify-content-center align-items-end divImage pt-3  d-none d-md-flex position-relative mr-3">
         <div className="col-md-8 text-right ">
-          <img className="img-fluid col-md-10 " src={imgPlat} />
+          <img className="img-fluid col-md-8 " src={imgPlat} />
           <img className="col-md-10 position-absolute imgelemt img-fluid" src={imgelemt} />
         </div>
-        <img className="img-fluid col-md-4 " src={imgChef} />
+        <img className="img-fluid col-md-4 mt-2" src={imgChef} />
       </div>
       <div className="row justify-content-center col">
         <div className="col-md-8 mt-5 ">

@@ -42,7 +42,7 @@ background-color: #6d973e;
 
  .header_titre3{
   font-family: "titilingBd";
-  color: white;  
+  color: white;    
  }
 .imgelemt{
   top: 0;
@@ -50,6 +50,7 @@ background-color: #6d973e;
   width: 5vh;
   height: auto;
   margin-top: -30%;
+  z-index: 2;
 }
 .divImage{
   margin-top: -25%;
