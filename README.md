@@ -9,3 +9,5 @@ travail realisé:
 
 ---------le poids des images ne sont pas optimisé------
 voir le site sur surge: http://thoughtful-farmer.surge.sh/
+
+![screen flyer resto](public/images/screen.png)
